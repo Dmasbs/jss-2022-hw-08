@@ -1,0 +1,37 @@
+.footer-contacts__address {
+   margin-top: 20px;
+}
+
+.footer-contacts__list {
+   display: flex;
+   flex-direction: column;
+}
+
+.footer-contacts__link {
+   @extend %link;
+
+   line-height: 1.71;
+   color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-address__link {
+   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+   &:hover,
+   &:focus {
+   color: $color-accent;
+   }
+}
+
+.footer-contacts__item{
+
+   &--black {
+      font-size: 14px;
+      line-height: 1.71;
+      color: $color-text-white;
+   }
+
+   &:not(:first-child) {
+      margin-top: 9px;
+   }
+}

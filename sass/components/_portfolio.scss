@@ -1,0 +1,36 @@
+.portfolio__list {
+   display: flex;
+   justify-content: center;
+   gap: 8px;
+
+   margin-bottom: 50px;
+
+}
+
+.portfolio__button {
+   padding: 6px 22px;
+
+   border: none;
+   border-radius: 4px;
+
+   font-weight: 500;
+   line-height: 1.6;
+   color: #212121;
+   background-color: #F5F4FA;
+
+   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+   background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+   filter 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+   &:hover,
+   &:focus {
+      color: $color-text-white;
+      background-color: $color-accent;
+      filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+   }
+}
+
+.btn-active {
+   color: $color-text-white;
+   background-color: $color-accent;
+}

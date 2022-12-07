@@ -1,0 +1,33 @@
+.features__list {
+   display: flex;
+   gap: 30px;
+}
+
+.features__block {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+   width: 270px;
+   height: 120px;
+   margin-bottom: 30px;
+   border-radius: 5px;
+
+   background-color: #F5F4FA;
+}
+
+
+.features__title {
+   margin-bottom: 10px;
+
+   font-weight: 700;
+   font-size: 14px;
+   line-height: 1.14;
+   color: #212121;
+}
+
+.features__text {
+   font-size: 14px;
+   line-height: 1.71;
+   color: $color-text-gray;
+}

@@ -1,0 +1,15 @@
+.footer {
+   padding-top: 60px;
+   padding-bottom: 60px;
+
+   background-color: #2F303A;
+}
+
+.footer__container {
+   display: flex;
+   align-items: baseline;
+}
+
+.footer__logo {
+   color: $color-text-white;  
+}
