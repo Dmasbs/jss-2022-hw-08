@@ -1,3 +1,13 @@
+.footer-contacts {
+   @media screen and (max-width: 767px) {
+      text-align: center;
+   }
+   
+   @media screen and (max-width: 1199px) {
+   margin-bottom: 60px;
+   }
+}
+
 .footer-contacts__address {
    margin-top: 20px;
 }
@@ -10,7 +20,7 @@
 .footer-contacts__link {
    @extend %link;
 
-   line-height: 1.71;
+   line-height: calc(24/14);
    color: rgba(255, 255, 255, 0.6);
 }
 
@@ -27,7 +37,7 @@
 
    &--black {
       font-size: 14px;
-      line-height: 1.71;
+      line-height: calc(24/14);
       color: $color-text-white;
    }
 
