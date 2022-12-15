@@ -1,16 +1,3 @@
-/*
-@media screen and (min-width: 480px) {
-   
-}
-
-@media screen and (min-width: 768px) {
-   
-}
-
-@media screen and (min-width: 1200px) {
-   
-}
-*/
 .promo {
    max-width: 1600px;
    margin-left: auto;
@@ -88,7 +75,6 @@
    text-align: center;
    color: $color-text-white;
 
-
    @media screen and (min-width: 1200px) {
       max-width: 696px;
       font-size: 44px;
@@ -118,5 +104,4 @@
    @media screen and (min-width: 1200px) {
       padding: 10px 32px;
    }
-
 }
