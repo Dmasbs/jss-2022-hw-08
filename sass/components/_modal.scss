@@ -161,14 +161,20 @@
    margin-left: 38px;
 
    font-size: 14px;
-   line-height: calc(24/12);
+   line-height: calc(24/14);
    letter-spacing: 0.03em;
    color: #757575;
+
+   
+   @media screen and (max-width: 1199px) {
+      font-size: 12px;
+      line-height: calc(14/12);
+   }
 }
 
 .modal-checkbox__icon {
    position: absolute;
-   top: 7px;
+   top: 4px;
    left: 15px;
 
    &--checked {
@@ -182,14 +188,23 @@
    .modal-checkbox__input:checked ~ &--unchecked{
       display: none;
    }
+
+   @media screen and (max-width: 1199px) {
+      top: 2px;
+   }
 }
 
 .modal__link {
    font-size: 14px;
-   line-height: calc(24/12);
+   line-height: calc(24/14);
    letter-spacing: 0.03em;
    text-decoration-line: underline;
    color: $color-accent;
+
+   @media screen and (max-width: 1199px) {
+      font-size: 12px;
+      line-height: calc(14/12);
+   }
 }
 
 .modal-button__send {

@@ -137,6 +137,9 @@ address {
 }
 
 .mobile-menu-nav {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
   margin-bottom: auto;
 }
 
@@ -1055,14 +1058,20 @@ address {
 .modal-checkbox__text {
   margin-left: 38px;
   font-size: 14px;
-  line-height: 2;
+  line-height: 1.7142857143;
   letter-spacing: 0.03em;
   color: #757575;
+}
+@media screen and (max-width: 1199px) {
+  .modal-checkbox__text {
+    font-size: 12px;
+    line-height: 1.1666666667;
+  }
 }
 
 .modal-checkbox__icon {
   position: absolute;
-  top: 7px;
+  top: 4px;
   left: 15px;
 }
 .modal-checkbox__icon--checked {
@@ -1074,14 +1083,25 @@ address {
 .modal-checkbox__input:checked ~ .modal-checkbox__icon--unchecked {
   display: none;
 }
+@media screen and (max-width: 1199px) {
+  .modal-checkbox__icon {
+    top: 2px;
+  }
+}
 
 .modal__link {
   font-size: 14px;
-  line-height: 2;
+  line-height: 1.7142857143;
   letter-spacing: 0.03em;
   -webkit-text-decoration-line: underline;
           text-decoration-line: underline;
   color: #2196F3;
+}
+@media screen and (max-width: 1199px) {
+  .modal__link {
+    font-size: 12px;
+    line-height: 1.1666666667;
+  }
 }
 
 .modal-button__send {
